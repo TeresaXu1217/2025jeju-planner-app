@@ -7,22 +7,11 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 \{\
+\{\
   "rewrites": [\
     \{\
       "source": "/(.*)",\
       "destination": "/index.html"\
-    \}\
-  ],\
-  "headers": [\
-    \{\
-      "source": "/(.*)",\
-      "headers": [\
-        \{\
-          "key": "Cache-Control",\
-          "value": "public, max-age=0, must-revalidate"\
-        \}\
-      ]\
     \}\
   ],\
   "builds": [\
